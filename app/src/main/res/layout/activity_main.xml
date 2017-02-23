@@ -26,6 +26,8 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="12dp"
+            android:src="@drawable/bt_style"
+            android:background="@android:color/transparent"
             />
 
         <TextView
@@ -45,6 +47,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="12dp"
+            android:background="@drawable/bt_style"
             />
 
     </RelativeLayout>

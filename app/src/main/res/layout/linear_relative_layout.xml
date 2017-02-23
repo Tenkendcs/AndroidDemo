@@ -23,7 +23,8 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="12dp"
-            android:background="@color/white"
+            android:background="@android:color/transparent"
+            android:src="@drawable/bt_style"
             />
 
         <TextView
@@ -37,13 +38,13 @@
             android:textSize="26sp"/>
 
         <ImageButton
-           android:onClick="newMethod"
+            android:id="@+id/bt2"
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="12dp"
-            android:background="@color/white"
+            android:background="@drawable/bt_style_xml"
             />
 
     </RelativeLayout>
@@ -66,7 +67,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:background="@color/white"
-            android:layout_weight="0.5"
+            android:layout_weight="1"
             android:layout_margin="12dp"
             android:onClick="firstMethod"/>
 
@@ -80,7 +81,7 @@
             android:background="@color/white"
             android:layout_weight="1"
             android:layout_margin="12dp"
-            android:onClick="firstMethod"/>
+            android:onClick="newMethod"/>
 
         <ImageButton
             android:id="@+id/button3"
@@ -90,7 +91,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:background="@color/white"
-            android:layout_weight="0.5"
+            android:layout_weight="1"
             android:layout_margin="12dp"
             android:onClick="firstMethod"/>
 
