@@ -23,6 +23,34 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
     }
 
     @Override
+    public CharSequence getPageTitle(int position) {
+
+
+        switch (position){
+            case 0:
+                return "Center Crop";
+            case 1:
+                return "Center";
+            case 2:
+                return "Center Inside";
+            case 3:
+                return  "Fit Center";
+            case 4:
+                return  "Fit End";
+            case 5:
+                return  "Fit Start";
+            case 6:
+                return  "Fit XY";
+            case 7:
+                return  "Matrix";
+            default:
+                return fragmentList.get(position).getClass().getName();
+        }
+
+
+    }
+
+    @Override
     public Fragment getItem(int position) {
         return fragmentList.get(position);
     }

@@ -99,15 +99,47 @@
 
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/list1"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/LinearLay"
-        android:layout_below="@+id/RelativeLay"
-        android:background="@android:color/holo_orange_dark">
+        android:background="@android:color/white"
+        android:layout_below="@id/RelativeLay"
+        android:layout_above="@id/LinearLay">
 
-    </ListView>
+        <Button
+            android:id="@+id/Timer_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer"/>
+
+        <Button
+            android:id="@+id/animation_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/Timer_Button"
+            android:text="Animation"/>
+
+        <Button
+            android:id="@+id/animatior_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/animation_Button"
+            android:text="Animatior"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Timer_Button"
+            android:id="@+id/quiz4_button"
+            android:text="quiz 4_button"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
 
 
 

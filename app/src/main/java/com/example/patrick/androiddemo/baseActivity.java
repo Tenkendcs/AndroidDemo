@@ -1,6 +1,7 @@
 package com.example.patrick.androiddemo;
 
 import android.content.Intent;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -24,4 +25,6 @@ public class baseActivity extends AppCompatActivity {
     public void toastShort(String content) {
         Toast.makeText(this, content, Toast.LENGTH_SHORT).show();
     }
+
+
 }

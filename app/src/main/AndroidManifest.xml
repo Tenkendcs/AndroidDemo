@@ -21,7 +21,22 @@
         <activity android:name=".ViewPagerActivity" />
         <activity android:name=".baseActivity" />
         <activity android:name=".DialogActivity" />
-        <activity android:name=".ListView2"></activity>
+        <activity android:name=".TimerActivity" />
+        <activity android:name=".AnimationActivity" />
+        <activity
+            android:name=".ActivityA"
+            android:launchMode="standard" />
+        <activity
+            android:name=".AcitivityB"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ActivityC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ActivityD"
+            android:launchMode="singleInstance" />
+        <activity android:name=".AnimatorActivity" />
+        <activity android:name=".quiz4Dialog"></activity>
     </application>
 
 </manifest>
